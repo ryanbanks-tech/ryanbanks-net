@@ -14,7 +14,7 @@ enableRobotsTXT = true
   bio = "I'm ME!"
   dateformat = "02 Jan 2006"
   SocialTitle = "Connect with me"
-  googleAnalytics = "G-2T2Y8T5LJ2"
+  googleAnalytics = "G-2T2Y8T5LJ2f"
   disqusShortname = ""
   [[params.social]]
     icon = "github"
