@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>{{ .Site.Title }}</title>
+  <link rel="icon" href="{{ .Site.Params.favicon }}" type="image/png">
+  <link rel="icon" href="{{ .Site.Params.favicon }}" type="image/x-icon">
+  <link rel="apple-touch-icon" href="/path/to/apple-touch-icon.png">
+</head>
+<body>
+  <header>
+    <img src="{{ .Site.Params.avatar }}" alt="Avatar" loading="eager">
+    <h1>{{ .Site.Title }}</h1>
+    <p>{{ .Site.Params.description }}</p>
+  </header>
+</body>
+</html>
