@@ -6,15 +6,6 @@
   <link rel="icon" href="{{ .Site.Params.favicon }}" type="image/png">
   <link rel="icon" href="{{ .Site.Params.favicon }}" type="image/x-icon">
   <link rel="apple-touch-icon" href="/path/to/apple-touch-icon.png">
-  {{ if .Site.Params.googleAnalytics }}
-    <script async src="https://www.googletagmanager.com/gtag/js?id={{ .Site.Params.googleAnalytics }}"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', '{{ .Site.Params.googleAnalytics }}');
-    </script>
-  {{ end }}
 
 </head>
 <body>
