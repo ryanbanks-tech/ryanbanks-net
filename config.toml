@@ -1,0 +1,55 @@
+baseURL = "http://ryanbanks.net/"
+languageCode = "en-us"
+title = "Ryan Banks"
+theme = "m10c"
+enableRobotsTXT = true
+
+# Theme settings
+[params]
+  author = "Ryan Banks"
+  description = "Where the magic happens!"
+  avatar = "/images/avatar.jpg"
+  favicon = "/images/favicon.ico"
+  menu_item_separator = " - "
+  bio = "I'm ME!"
+  dateformat = "02 Jan 2006"
+  SocialTitle = "Connect with me"
+  googleAnalytics = "G-788JJWQKB6"
+  disqusShortname = ""
+  [[params.social]]
+    icon = "github"
+    name = "My Github"
+    url = "https://github.com/ryanbanks-tech"
+  [[params.social]]
+    icon = "linkedin"
+    name = "My LinkedIn"
+    url = "https://www.linkedin.com/in/ryan-banks-tn/"
+  [[params.social]]
+    icon = "x"
+    name = "My Twitter/X"
+    url = "https://x.com/ryanbanks_tech"
+  [params.style]
+    darkestColor = "#d35050"
+    darkColor = "#212121"
+    lightColor = "#f5e3e0"
+    lightestColor = "#f5f5f5"
+    primaryColor = "#ffffff"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "resume"
+    name = "Resume"
+    url = "/resume/"
+    weight = 3
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 2
